@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81fa4d52.chunk.css",
+    "main.js": "/static/js/main.2e0da864.chunk.js",
+    "main.js.map": "/static/js/main.2e0da864.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.32f98088.js",
+    "runtime-main.js.map": "/static/js/runtime-main.32f98088.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.a2261121.chunk.js": "/static/js/2.a2261121.chunk.js",
+    "static/js/2.a2261121.chunk.js.map": "/static/js/2.a2261121.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.81fa4d52.chunk.css.map": "/static/css/main.81fa4d52.chunk.css.map",
+    "static/js/2.a2261121.chunk.js.LICENSE.txt": "/static/js/2.a2261121.chunk.js.LICENSE.txt",
+    "static/media/AACapp-logo.1b6e952e.svg": "/static/media/AACapp-logo.1b6e952e.svg",
+    "static/media/App.css": "/static/media/Menlo-Regular.02bb0174.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32f98088.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.a2261121.chunk.js",
+    "static/css/main.81fa4d52.chunk.css",
+    "static/js/main.2e0da864.chunk.js"
+  ]
+}
