@@ -1,0 +1,242 @@
+body {
+  background-color: #aee8f2;
+  font-family: "Menlo Regular", sans-serif;
+  border-style: dashed;
+  border-width: 5px;
+  /* height: 100vh; */
+}
+
+@font-face {
+  font-family: "Menlo Regular";
+  src: url(assets/fonts/Menlo-Regular.woff);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  /* padding-right: 15px; */
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+#wrapper {
+  /* background-color: red;
+  display: block; */
+}
+/* 
+.d-flex {
+  min-height: 99vh;
+} */
+
+.d-flex {
+  min-height: 99vh !important;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.site-title {
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  color: #787878;
+}
+
+.tagline {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#centre {
+  width: 100%;
+  text-align: center;
+  margin-bottom: -170px;
+}
+
+.main-logo {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  /* width: 100px; */
+}
+
+.card {
+  background-color: transparent;
+  border-style: none;
+}
+
+input.form-control {
+  background-color: #f8f8f8;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px;
+  border-radius: 12px;
+  height: 55px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #1789fc;
+  border-color: transparent;
+  border-radius: 12px;
+}
+
+.progress-bar {
+  height: 5px;
+  background: pink;
+  margin-top: 20px;
+}
+
+/* image grid styles */
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.img-wrap {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+}
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  background-color: #1789fc !important;
+  float: right;
+  width: 8%;
+  height: 100vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.navbar-brand {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 8px;
+  /* margin-bottom: 20vh; */
+  opacity: 0.4;
+}
+
+.navbar-nav {
+  /* background-color: red; */
+  /* height: 30%; */
+}
+
+.site-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 144, 211);
+  background-color: rgb(255, 144, 211);
+  opacity: 0.7;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin-left: 12px;
+  width: 80%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-button:hover {
+  background-color: #1789fc;
+  border-color: #0d65c9;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.profile-button {
+  background-color: rgb(255, 55, 175);
+  border-color: rgb(255, 55, 175);
+  opacity: 0.3;
+}
+
+.add-button {
+  background-color: rgb(255, 228, 244);
+  border-color: rgb(255, 228, 244);
+  opacity: 0.3;
+  color: #000000;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.add-button:hover,
+.profile-button:hover {
+  opacity: 1;
+}
+
+.refresh-button {
+  height: 80vh;
+  padding: 300px 0;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.select-subject-panel {
+  width: 15%;
+  height: 100vh;
+  background-color: #e71d36;
+  overflow: scroll;
+  display: inline-block;
+  padding-bottom: 16px;
+}
+
+.select-verb-panel {
+  width: 30%;
+  height: 100vh;
+  background-color: #f0f757;
+  overflow: scroll;
+  display: inline-block;
+  padding-bottom: 16px;
+}
+
+.select-object-panel {
+  width: 48%;
+  height: 100vh;
+  overflow: scroll;
+  display: inline-block;
+  background-color: #06d6a0;
+  padding-bottom: 16px;
+}
+
+.rect {
+  width: 13vw;
+  height: 13vw;
+  background: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: -0.5vw;
+  margin-bottom: -0.5vw;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}
